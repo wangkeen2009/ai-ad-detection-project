@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI輔助阿茲海默症早期偵測自主學習計畫</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+      line-height: 1.8;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      border-bottom: 2px solid #333;
+    }
+    nav {
+      background-color: #2a2a2a;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      border-bottom: 1px solid #444;
+    }
+    nav a {
+      color: #90caf9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h2 {
+      border-left: 4px solid #90caf9;
+      padding-left: 1rem;
+      margin-top: 2rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>AI輔助阿茲海默症早期偵測與預後分析 —— 自主學習計畫</header>
+
+  <nav>
+    <a href="#motivation">研究動機</a>
+    <a href="#objective">研究目的</a>
+    <a href="#expectation">預期成果</a>
+    <a href="#method">研究步驟</a>
+    <a href="#result">研究結果</a>
+    <a href="#discussion">研究討論</a>
+    <a href="#reflection">研究結論與反思</a>
+  </nav>
+
+  <section id="motivation">
+    <h2>研究動機</h2>
+    <p>阿茲海默症（AD）為全球高齡化社會中最具挑戰性的神經退行性疾病。其早期診斷困難，常延誤治療，使患者及家庭承受沉重負擔。儘管現今已有基因、MRI、PET、臨床認知等資料，但多數高中生缺乏實驗設備與操作門檻高，導致難以參與實際研究。</p>
+    <p>隨著開放資料與AI技術的進步，學生可透過電腦平台運用AI分析公開生醫資料，突破傳統研究限制。本計畫以此為基礎，探討AI協助AD早期診斷與預後之可行性。</p>
+  </section>
+
+  <section id="objective">
+    <h2>研究目的</h2>
+    <ul>
+      <li>學習從公開資料庫（如ADNI、Kaggle、UCI等）取得阿茲海默症相關資料。</li>
+      <li>運用AI工具（Google Colab、ChatGPT、AutoML）進行資料前處理、特徵選擇與模型訓練。</li>
+      <li>比較多種AI演算法（如Logistic Regression、SVM、CNN等）對AD診斷與預測的準確率。</li>
+      <li>建立一個可重複操作的AI分析流程與新手教學包。</li>
+    </ul>
+  </section>
+
+  <section id="expectation">
+    <h2>預期成果</h2>
+    <ul>
+      <li>開發一套基於雲端工具的AD早期偵測AI分析流程。</li>
+      <li>製作可公開的教學手冊，協助無實驗設備的學生理解AI醫學應用。</li>
+      <li>探討模型效能限制、偏誤來源、資料倫理等重要議題。</li>
+    </ul>
+  </section>
+
+  <section id="method">
+    <h2>研究步驟</h2>
+    <ul>
+      <li><strong>文獻回顧：</strong>收集過去五年AI應用於神經退行性疾病的中英文研究。</li>
+      <li><strong>資料取得：</strong>學習從ADNI、Kaggle等平台搜尋與下載結構化的臨床與影像資料。</li>
+      <li><strong>資料前處理：</strong>進行遺漏值補齊、標準化、資料標記等清理作業。</li>
+      <li><strong>特徵工程：</strong>利用AutoML或Python程式（如Scikit-learn）選出具判別力的關鍵特徵。</li>
+      <li><strong>模型建構：</strong>比較傳統統計、機器學習與深度學習模型的準確性與穩定性。</li>
+      <li><strong>效能評估：</strong>以ROC曲線、AUC值、Precision、Recall等指標評比。</li>
+      <li><strong>可視化與報告撰寫：</strong>產出直觀圖表並撰寫簡潔分析說明。</li>
+      <li><strong>新手手冊撰寫：</strong>將流程轉譯為圖解與教學，協助後續學生複製與進行研究。</li>
+    </ul>
+  </section>
+
+  <section id="result">
+    <h2>研究結果與分析</h2>
+    <ul>
+      <li>整合數據、模型與可視化工具，成功建立AI判讀AD模型。</li>
+      <li>比較多模型效能後，找出在臨床應用上最具實用價值者。</li>
+      <li>發現具高度貢獻之特徵，如年齡、APOE基因型、特定MRI影像指標。</li>
+    </ul>
+  </section>
+
+  <section id="discussion">
+    <h2>研究討論方向</h2>
+    <ul>
+      <li>AI醫療應用的倫理性（偏誤、歧視、資料隱私）。</li>
+      <li>高中生能否在無實驗設備條件下進行高水準研究？</li>
+      <li>台灣未來在智慧醫療教育上應如何發展？</li>
+    </ul>
+  </section>
+
+  <section id="reflection">
+    <h2>研究結論與反思</h2>
+    <p>本計畫證明即使不具備實驗室資源，只要善用雲端工具與公開資料，高中生亦可進行結合AI與醫學的自主研究。透過此過程，我學會了科學思維、資料倫理、問題解決及技術整合，更深刻理解醫療背後的多重挑戰與希望。</p>
+  </section>
+</body>
+</html>
